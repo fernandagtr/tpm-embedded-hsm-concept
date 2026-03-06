@@ -66,3 +66,18 @@ Prototype implementation
 TPM API integration
 Secure enclave comparison
 Hardware-backed key rotation model
+
+-Then it will be like this:
+
+    Markdown
+    User Message
+     │
+     ▼
+    Key Derivation Function
+     │
+     ▼
+    TPM Hardware Root Key
+     │
+     ▼
+    Encrypted Storage
+
